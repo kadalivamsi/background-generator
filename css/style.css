@@ -1,0 +1,640 @@
+html,
+body {
+    background: url('../img/Pattern.jpg');
+    background-size: cover;
+    background-position: center;
+    font-style: italic;
+    font-weight: bold !important;
+}
+
+#cover {
+    height: 625px;
+    background: url('../img/tree.jpg') center fixed;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.wall-sticker {
+    background: rgba(0, 0, 0, 0.4) ;
+    padding: 12rem 20rem 16rem 3rem;
+    font-weight: bold !important;
+    font-size: 4rem !important ;
+    color: white;
+    height: 625px;
+}
+
+.moto{
+    font-size: 3rem;
+    margin-top: 180px ;
+    margin-left: 220px;
+    text-align: center;
+}
+
+/* buttons */
+.btn-lg {
+    background-color: transparent !important;
+    border: 1px solid rgba(19, 128, 26, 1) !important;
+    transition: 0.5s !important;
+}
+
+.btn-success-outline {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid rgba(19, 128, 26, 1) !important;
+    transition: 0.5s;
+    color: rgb(19, 128, 36) !important;
+    margin-left: 4px;
+}
+
+.btn-lg:hover,
+.btn-lg:focus,
+.btn-lg:active,
+.btn-success-outline:hover,
+.btn-success-outline:focus,
+.btn-success-outline:active {
+    background-color: rgba(19, 128, 36, 0.54) !important;
+    border: 1px solid rgba(19, 128, 26, 1) !important;
+    transition: 0.5s !important;
+}
+
+.fa-arrow-down {
+    margin-left: 33rem;
+    margin-top: 40px;
+    font-size: 2.5rem;
+    color: white;
+    transition: 0.3s;
+}
+
+.fa-arrow-down:hover {
+    color: rgba(19, 128, 36, 0.54);
+    transition: 0.3s;
+}
+
+.parallax-btn {
+    width: 200px !important;
+    margin: 30px auto 0 auto;
+}
+
+/* SPANS */
+
+.bold-green {
+    color: rgba(19, 128, 36, 0.9);
+}
+
+.green-underline {
+    border-bottom: 1px solid rgba(19, 128, 36, 0.9);
+}
+
+/* NAVBAR */
+.navbar-brand {
+    font-style: italic;
+    padding-right: 15px;
+}
+
+#main-nav, li a {
+    border-bottom: 1px solid transparent;
+    transition: 1s;
+    color: grey;
+
+}
+
+#main-nav li a:hover {
+    border-bottom: 1px solid green;
+    transition: 1s;
+    color: lightgray;
+}
+
+.navbar-row {
+    color: honeydew !important;
+}
+
+.sticky-top {
+    position: sticky;
+}
+
+/* SECTION FEATURES */
+.section-features {
+    padding: 6.5rem 0;
+    background: url('../img/Pattern.jpg');
+}
+
+.square {
+    text-align: center;
+}
+
+.square i {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    transition: 0.3s;
+
+}
+
+.square i:hover {
+    color: rgba(19, 128, 36, 1);
+    transition: 0.3s;
+}
+
+.square p {
+    padding-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.green-hr {
+    border-top: 1px solid rgba(19, 128, 36, 1);
+    width: 150px;
+    background-color: rgba(19, 128, 36, 1);
+}
+
+.heading,
+.under-heading {
+    text-align: center;
+}
+
+/* SECTION TIMELINE */
+
+.section-timeline {
+    background-color: white;
+    padding-top: 5rem;
+}
+.timeline {
+    list-style: none;
+    padding: 20px 0 20px;
+    padding-top: 50px;
+    position: relative;
+    margin-bottom: auto;
+}
+
+.timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: "";
+    width: 3px;
+    background-color: lightgray;
+    left: 50%;
+    margin-left: -1.5px;
+    margin-bottom: 10px;
+}
+
+.timeline > li {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline > li:before,
+.timeline > li:after {
+    content: "";
+    display: table;
+}
+
+.timeline > li:after {
+    clear: both;
+}
+
+.timeline > li > .timeline-panel {
+    width: 50%;
+    float: left;
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+
+.timeline p {
+    font-weight: 700;
+}
+
+.timeline > li:not(.timeline-inverted) {
+    padding-right: 90px;
+}
+
+.timeline > li.timeline-inverted {
+    padding-left: 90px;
+}
+
+.timeline > li > .timeline-badge {
+    font-size: 1rem !important;
+    color: #000000;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: 50% ;
+    margin-left: -25px;
+    background-color: rgba(19, 128, 36, 0.82);
+    border-radius: 50%;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+}
+
+.far.fa-clock {
+    padding-right: 3px;
+}
+
+/* SECTION PARALLAX */
+
+#section-parallax {
+    text-align: center;
+    background: url(../img/tree.jpg) center repeat fixed;
+    padding: 160px 0;
+    background-size: cover;
+    color: white;
+}
+
+.why-us {
+    background: white;
+    padding-top: 3rem;
+}
+
+/* SECTION CARDS */
+
+#section-cards h2 {
+    text-align: center;
+}
+
+#section-cards {
+    padding: 5rem 0;
+    background: none;
+}
+
+.card {
+    margin-top: 3rem;
+}
+
+.card img {
+    height: 180px;
+    width: 348px;
+    transition: 2s;
+}
+
+.card img:hover{
+    transform: scale(0.95);
+    transition: 2s;
+}
+
+.card-block {
+    padding: 12px;
+}
+
+.card a {
+    color: rgba(19, 128, 36, 0.90);
+}
+
+.card a:hover {
+    color: rgb(19, 128, 36);
+}
+
+/* SECTION-NUMBERS */
+
+.serction-numbers {
+    background-color: white;
+    padding-top: 5rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+.num-content {
+    display: table;
+    font-size: 20px;
+    line-height: 20px;
+    height: 140px;
+    width: 140px;
+    background: rgba(19, 128, 36, 0.91);
+    border-radius: 100px;
+    color: white;
+    transition: 0.3s;
+
+}
+
+.num .num-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.num {
+    text-align: Center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.num-content p {
+    padding-top: 15px;
+}
+
+.num-content:hover {
+    color: #222;
+    transition: 0.3s;
+}
+
+/* SECTION TESTIMONIALS */
+
+.section-testimonials {
+    padding-top: 5rem;
+}
+
+.testimonial {
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.matheus-img,
+.Michael-img,
+.Roksolana-img {
+    width: 135px;
+    height: auto;
+    border-radius: 50%;    
+}
+
+.matheus-img:hover,
+.Michael-img:hover,
+.Roksolana-img:hover {
+    transition: 0.5s;
+    transform: scale(0.95);
+}
+
+blockquote {
+    font-size: small;
+    font-weight: lighter;
+}
+
+.fa .fa-quote-right {
+    margin-right: 10px;
+}
+
+.testimonials-hr {
+    border-top: 1px solid rgba(19, 128, 36, 1);
+    background-color: rgba(19, 128, 36, 1);
+    width: 160px;
+}
+
+/* SECTION CONTACT */
+
+.section-contact {
+    background-color: white;
+    padding: 5rem 0 0 5rem;
+}
+
+#contact .control-label {
+    font-size: 20px;
+    line-height: 80%;
+    margin-top: 5px;
+    float: left;
+}
+
+.form-control {
+    font-size: 18px;
+}
+
+.form-horizontal {
+    margin-top: 1.5rem;
+}
+
+textarea:focus, input:focus {
+    border-color: rgba(19, 128, 36, 0.53) !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 1px rgba(231, 76, 60, 0.05) !important;
+}
+
+#contact .btn.btn-success {
+    background-color: rgba(19, 128, 36, 1);
+    border: 1px solid rgba(19, 128, 26, 1);
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 2.5rem;
+    transition: 0.5;
+}
+
+#contact .btn.btn-success:hover {
+    background-color: rgba(19, 128, 36, 0.9);
+    border: 1px solid rgba(19, 128, 36, 1);
+    transition: 0.5;
+}
+
+/* footer */
+
+footer {
+    background-color: #222;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.social-links {
+    list-style:none;
+    float: right;
+}
+
+.social-links {
+    display: inline-flex;
+    margin-top: 15px;
+    padding: 20px;
+} 
+
+.social-links li {
+    margin: 10px;
+}
+
+.social-links li a:link,
+.social-links li a:visied {    
+    color: #888;
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+}
+
+.fa-twitter-square:hover {
+    color: #00aced;
+}
+
+.fa-google-plus-square:hover {
+    color: #dd4b39;
+}
+
+.fa-instagram:hover {
+    color: #517fa4;
+}
+
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-google-plus-square,
+.fa-instagram {
+    transition: 0.2s;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 45px;
+    margin-left: -100px;
+    font-size: 18px;
+}
+
+.fa-chevron-circle-up {
+    margin-top: 46px;
+    color: rgb(19, 128, 36);
+    transition: 0.2s;
+}
+
+.fa-chevron-circle-up:hover {
+    color: rgba(19, 128, 36, 0.7);
+    transition: 0.2s;
+}
+
+/* ANIMATIONS */
+
+.js-wp-1,
+.js-wp-2,
+.js-wp-3,
+.js-wp-4 {
+    opacity: 0;
+}
+
+.js-wp-1.animated {
+    opacity: 1;
+    animation-delay: 0.2s;
+}
+
+.js-wp-2.animated,
+.js-wp-3.animated,
+.js-wp-4.animated {
+    opacity: 1;
+    animation-delay: 0.5s;
+}
+
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 1920px) {
+   
+    .wall-sticker {
+        font-size: 5rem;
+        padding: 13rem 20rem 10rem 3rem;
+    }
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    
+    .fa-facebook-square,
+    .fa-twitter-square,
+    .fa-google-plus-square,
+    .fa-instagram {
+        font-size: 43px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .navbar {
+        font-size: 15px;
+    }
+    
+    .fa-arrow-down {
+        position: absolute;
+        right: 135px;
+    }
+    
+    .matheus-img,
+    .Michael-img,
+    .Roksolana-img {
+        width: 85px;
+        height: 85px;
+    }
+    
+    .testimonials-hr {
+        width: 210px;
+    }
+    
+    
+    .fa-facebook-square,
+    .fa-twitter-square,
+    .fa-google-plus-square,
+    .fa-instagram {
+        font-size: 20px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 992px) {
+    .moto {
+        font-size: 2.2rem;
+    }
+}
+
+@media only screen and (max-height: 865px) {
+    .wall-sticker {
+        font-size: 5rem;
+        padding: 7rem 20rem 2rem 3rem !important;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .moto {
+        display: none;
+    }
+    
+    .fa-arrow-down {
+        position: absolute;
+        right: 60px;
+        top: 150px;
+    }
+    
+    
+     .monka-img,
+    .mario-img,
+    .monice-img {
+        width: 65px;
+        height: 65px;
+    }
+    
+    .num {
+        margin-left: 0;
+    }
+    
+    .fa-facebook-square,
+    .fa-twitter-square,
+    .fa-google-plus-square,
+    .fa-instagram {
+        font-size: 30px;
+    }
+    
+}
+    
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-right: 15px;
+}
+
+@media only screen and (max-width: 541px) {
+
+    .fas .fa-arrow-down{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    
+    .testimonial {
+        margin-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+    
+    .num {
+        margin-left: 0.1px;
+    }
+    
+}
